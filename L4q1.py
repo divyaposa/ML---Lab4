@@ -1,3 +1,6 @@
+#A1. Please evaluate confusion matrix for your classification problem. From confusion matrix, the 
+#other performance metrics such as precision, recall and F1-Score measures for both training and test 
+#data. Based on your observations, infer the models learning outcome (underfit / regularfit / overfit).  
 # Import necessary libraries
 import os  # For file path handling
 import numpy as np  # For numerical operations
@@ -169,3 +172,4 @@ if __name__ == "__main__":
     classifier.load_and_preprocess_data()  # Load images and split data
     classifier.train_model()  # Train KNN
     classifier.evaluate_model()  # Evaluate and visualize
+
