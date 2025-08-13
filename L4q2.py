@@ -1,3 +1,5 @@
+#A2. Calculate MSE, RMSE, MAPE and R2 scores for the price prediction exercise done in Lab 02. 
+#Analyse the results.
 # Import required libraries
 import pandas as pd  # For reading Excel files and handling tabular data with DataFrames
 import numpy as np  # For numerical computations
@@ -91,3 +93,4 @@ if __name__ == "__main__":
     # Step 4: Evaluate how well the model performed
     evaluator = RegressionEvaluator()  # Create the evaluator object
     evaluator.evaluate(y, y_pred)  # Print regression metrics for performance evaluation
+
